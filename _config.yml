@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Hongbin Xu"
+title                    : "Home"
 title_separator          : "-"
 name                     : &name "Hongbin Xu"
 description              : &description "personal description"
