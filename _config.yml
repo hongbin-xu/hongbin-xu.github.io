@@ -50,32 +50,14 @@ staticman:
 atom_feed:
   path                   : # blank (default) uses feed.xml
 
-# SEO Related
-google_site_verification :
-bing_site_verification   :
-alexa_site_verification  :
-yandex_site_verification :
-
-social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
-
-
-# Analytics
-analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
-  google:
-    tracking_id          :
-
 
 # Site Author
 author:
   name             : "Hongbin Xu"
   avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
+  bio              : "Ph.D. Student"
   location         : "Austin, TX"
-  employer         :
+  employer         : "The University of Texas at Austin"
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=el6GV0UAAAAJ"
   email            : "hongbinxu@utexas.edu"
@@ -200,7 +182,7 @@ defaults:
   # _portfolio
   - scope:
       path: ""
-      type: cv
+      type: portfolio
     values:
       layout: single
       author_profile: true
